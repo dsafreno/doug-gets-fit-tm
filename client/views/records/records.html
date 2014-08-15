@@ -1,0 +1,35 @@
+<template name="records">
+  <div class="body-elem records">
+    <table>
+      <tr>
+        <th > Date </th>
+        <th > Weight </th>
+        <th > Squats </th>
+        <th > Deadlift </th>
+        <th > Bench </th>
+        <th > Press </th>
+        <th > Abs </th>
+        <th > Biceps </th>
+        <th > Run </th>
+      </tr>
+
+      {{ #each records }}
+      {{ > record }}
+      {{ /each }}
+    </table>
+  </div>
+</template>
+
+<template name="record">
+  <tr>
+    <td > {{ date }} </td>
+    <td > {{ weight }} </td>
+    <td > {{ squats }} </td>
+    <td > {{ deadlift }} </td>
+    <td > {{ benchpress }} </td>
+    <td > {{ press }} </td>
+    <td > {{ abs }} </td>
+    <td > {{ biceps }} </td>
+    <td > {{ run }} </td>
+  </tr>
+</template>

@@ -1,0 +1,64 @@
+/* CSS declarations go here */
+/* Globals */
+.light {
+  font-weight: 300;
+}
+
+.normal {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+
+/* High level structures */
+html {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+html, body, .root {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-image:url("img/trees.jpg");
+}
+
+.root {
+  background-color:rgba(255, 255, 255, 0.9);
+}
+
+.app-header {
+  width:100%;
+  opacity: 50%;
+  background-color: rgba(0, 107, 0, 0.5);
+  height:80px;
+  min-height: 80px;
+  min-width: 430px;
+  display: inline-block;
+}
+
+h1 {
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 40px;
+  color: white;
+}
+
+.body-elem {
+  vertical-align: top;
+  display:inline-block;
+  min-width:430px;
+  margin-top:20px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+

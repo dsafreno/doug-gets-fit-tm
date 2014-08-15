@@ -1,0 +1,42 @@
+.create-wrapper {
+  border: 1px solid #006B00;
+  color:#006B00;
+  padding:10px;
+}
+
+.new-entry {
+  cursor:pointer;
+  width:100%;
+  text-align:center;
+  font-size:30px;
+}
+
+.create {
+  display:none;
+}
+
+.create table {
+  width:100%;
+}
+
+.create input {
+  width:100%;
+}
+
+.create td {
+  padding-bottom:5px;
+}
+
+.create-label {
+  text-align:right;
+  padding-right:5px;
+}
+
+.create-value {
+  text-align:left;
+}
+
+.create-submit {
+  width:100%;
+}
+
